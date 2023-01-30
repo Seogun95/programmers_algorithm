@@ -1,6 +1,5 @@
 function solution(a, b) {
     const week = ['SUN', 'MON', 'TUE', 'WED', 'THU', 'FRI', 'SAT'];
-    let getMonth = (a -= 1);
-    let date = week[new Date(2016, a, b).getDay()];
+    let date = week[new Date(2016, a - 1, b).getDay()];
     return date;
 }
