@@ -1,9 +1,10 @@
-function solution(n)
-{
-    var answer = 0;
+function solution(n) {
+    let result = 0;
+    let arr = `${n}`.split('').map((i) => Number(i));
 
-    // [실행] 버튼을 누르면 출력 값을 볼 수 있습니다.
-    console.log('Hello Javascript')
-
-    return answer;
+    for (let i = 0; i < arr.length; i++) {
+        result += arr[i];
+    }
+    return result;
 }
+
