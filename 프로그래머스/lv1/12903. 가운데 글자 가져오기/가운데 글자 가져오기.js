@@ -1,12 +1,4 @@
 function solution(s) {
-        let answer = '';
-
-    let center = Math.floor(s.length / 2);
-
-    if (s.length % 2 === 1) {
-        answer = s.substr(center, 1);
-    } else {
-        answer = s.substr(center - 1, 2);
-    }
-    return answer;
+    let center = ~~(s.length / 2);
+    return (s.length % 2 === 1) ? s.substr(center, 1) : s.substr(center - 1, 2);
 }
