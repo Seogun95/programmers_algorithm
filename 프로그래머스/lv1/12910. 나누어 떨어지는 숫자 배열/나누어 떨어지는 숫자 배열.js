@@ -1,11 +1,10 @@
 function solution(arr, divisor) {
     let answer = [];
 
-    arr.forEach((index) => {
-        if (index % divisor == 0) {
-            answer.push(index);
+    arr.forEach((value) => {
+        if (value % divisor == 0) {
+            answer.push(value);
         }
     });
-    console.log(answer);
     return answer.length === 0 ? [-1] : answer.sort((a, b) => a - b);
 }
