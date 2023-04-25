@@ -1,7 +1,5 @@
-<div style="display: flex; aling-items: center; justify-content:center">
-<img src="https://user-images.githubusercontent.com/76584961/213872765-e37b6c8b-5092-46fa-ae21-f595bddafcc2.png" alt="프로그래머스"  style="width: 50%;"/>
-<img src="https://user-images.githubusercontent.com/76584961/234159600-023d8dbd-988b-4c75-bc5a-e341e0bb50d5.png" alt="백준"  style="width: 50%;"/>
-</div>
+
+<img src="https://user-images.githubusercontent.com/76584961/213872765-e37b6c8b-5092-46fa-ae21-f595bddafcc2.png" alt="프로그래머스"  style="width: 100%;"/>
 
 # 알고리즘
 
@@ -11,10 +9,19 @@
 - [백준 입출력 템플릿 모음](백준/README.md)
 
 ## 구조
-
-![CleanShot 2023-02-01 at 15 53 40 copy](https://user-images.githubusercontent.com/76584961/215972695-f01c90f9-486e-47e7-98f9-d22f4473b20a.png)
-
----
+```
+📦백준
+ ┣ 📂Bronze
+ ┃ ┣ 📂0000. 문제 이름
+ ┃ ┃ ┣ 📜README.md
+ ┃ ┃ ┗ 📜문제 이름.js
+ 📦프로그래머스
+ ┣ 📂lv1
+ ┃ ┣ 📂0000. 문제 이름
+ ┃ ┃ ┣ 📜README.md
+ ┃ ┃ ┗ 📜문제 이름.js
+ ┗ 📜README.md
+```
 
 ## Commit Convention
 
