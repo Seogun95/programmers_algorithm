@@ -1,10 +1,14 @@
+<div style="display: flex; aling-items: center; justify-content:center">
+<img src="https://user-images.githubusercontent.com/76584961/213872765-e37b6c8b-5092-46fa-ae21-f595bddafcc2.png" alt="프로그래머스"  style="width: 50%;"/>
+<img src="https://user-images.githubusercontent.com/76584961/234159600-023d8dbd-988b-4c75-bc5a-e341e0bb50d5.png" alt="백준"  style="width: 50%;"/>
+</div>
+
 # 알고리즘
 
-[프로그래머스](https://school.programmers.co.kr/learn/challenges?order=recent&page=1&levels=0&languages=javascript)
-[백준](https://www.acmicpc.net/step) ㄴ
-[백준 입출력 템플릿 모음](백준/README.md)
-
----
+- 🔗
+  [프로그래머스](https://school.programmers.co.kr/learn/challenges?order=recent&page=1&levels=0&languages=javascript)
+- 🔗 [백준](https://www.acmicpc.net/step)
+- [백준 입출력 템플릿 모음](백준/README.md)
 
 ## 구조
 
