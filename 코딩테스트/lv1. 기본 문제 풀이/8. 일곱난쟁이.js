@@ -10,9 +10,11 @@
  *
  * > 입력된 순서대로 일곱 난쟁이의 키를 출력한다.
  *
- * 입력 - 20 7 23 19 10 15 25 8 13
- * 출력 - 20 7 23 19 10 8 13
+ * 입력 - [22, 7, 21, 19, 10, 15, 25, 8, 13]
+ * 출력 - [22, 7, 10, 15, 25, 8, 13]
  */
+
+let arr = [22, 7, 21, 19, 10, 15, 25, 8, 13];
 
 /* ======= nested for loop ======= */
 
@@ -30,6 +32,21 @@ function solution(arr) {
     }
   }
 }
-let arr = [20, 7, 23, 19, 10, 15, 25, 8, 13];
 
 console.log('solution --->', solution(arr));
+
+/* ======= filter in for ======= */
+
+function solution2(arr) {
+  let sumOfArr = arr.reduce((arr, cur) => arr + cur, 0);
+
+  let result = arr.filter((_, index) => {
+    for (let j = index + 1; j < arr.length; j++) {
+      sumOfArr - (arr[index] - arr[j]) === 100 ? false : true;
+    }
+    return true;
+  });
+  return result;
+}
+
+console.log('solution2 --->', solution2(arr));
